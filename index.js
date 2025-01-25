@@ -11,8 +11,8 @@ const client = new Client({
     ]
 });
 
-const birthdayChannelId = '1196534223998304276';
-const celebrationChannelId = '1200905048767594496';
+const birthdayChannelId = 'BİRTHDAYCHANNELID';
+const celebrationChannelId = 'celebrationChannelId';
 
 client.once('ready', async () => {
     console.log(`${client.user.username} is online.`);
